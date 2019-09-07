@@ -1,0 +1,73 @@
+@keyframes agrandar {
+  from {
+    font-size: 100px;
+  }
+  to {
+    font-size: 130px;
+  }
+}
+.header {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__img {
+  margin: 10px 0px 0px 10px;
+  width: 200px;
+}
+
+body {
+  height: 100vh;
+  margin: 0px;
+  font-family: "Muli", sans-serif;
+  background: linear-gradient(#04FC9C, #8F57FE);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+}
+
+.main__title {
+  margin: 0;
+  font-size: 100px;
+  animation-name: agrandar;
+  animation-duration: 1.5s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+.main p {
+  margin-top: 100px;
+  font-size: 20px;
+  position: absolute;
+}
+
+.footer {
+  margin: 0px;
+}
+
+.footer ul {
+  list-style: none;
+  display: flex;
+  height: 20px;
+}
+
+.footer li a {
+  text-decoration: none;
+  margin: 20px;
+  color: white;
+  text-align: center;
+}
+
+/*# sourceMappingURL=pagina404.css.map */
